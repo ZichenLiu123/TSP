@@ -1,22 +1,25 @@
 # TSP Solver Project
-The TSP Solver is an advanced implementation that explores three heuristic algorithms to solve the TSP, a classic optimization problem that seeks the shortest possible route that visits a set of cities exactly once and returns to the original city.
 
-**Features**
+The TSP Solver Project is an intricate implementation aimed at tackling the Traveling Salesman Problem (TSP), a renowned optimization challenge that seeks the most efficient route visiting a set of cities exactly once and returning to the origin. This project delves into three heuristic algorithms to find solutions to the TSP.
 
-Graph-Based Representation: The project uses graph structures to represent cities (nodes) and connections (edges), with travel costs between cities calculated using the Haversine formula.
+## Features
 
-Heuristic Algorithms: Implements three variations of the heuristic approach to solve the TSP: Nearest Neighbor (NN), Nearest Neighbor First-Last (NN-FL), and Node Insertion (NI).
+- **Graph-Based Representation**: Utilizes graph structures to depict cities as nodes and their connections as edges, employing the Haversine formula to compute the distances between cities.
 
-Algorithm Performance Comparison: Evaluates and compares the algorithms based on three metrics: average solution cost, computation time, and success rate.
+- **Heuristic Algorithms**: Features three heuristic algorithm implementations for the TSP: Nearest Neighbor (NN), Nearest Neighbor First-Last (NN-FL), and Node Insertion (NI).
 
-Interactive User Interface: Features a menu-driven interface that allows users to load graph data, execute algorithms, view individual results, and compare algorithm performances.
+- **Algorithm Performance Comparison**: Provides an analytical comparison of the algorithms based on average solution cost, computational time, and the rate of successful solutions.
 
-Comprehensive Error Handling: Incorporates detailed error messaging for user guidance during file loading, data input, and algorithm execution processes.
+- **Interactive User Interface**: Offers a user-friendly, menu-driven interface for loading graph data, initiating algorithm runs, viewing specific outcomes, and comparing the performance across algorithms.
 
-**Structure**
+- **Comprehensive Error Handling**: Implements detailed error messages to guide users through file loading, data input, and the algorithm execution stages.
 
-Node and Graph Data Structures: Classes designed to store city information and graph representations, including adjacency and cost matrices.
+## Structure
 
-Algorithm Classes: The TSPSolver abstract class and its subclasses (NNSolver, NNFLSolver, NISolver), each implementing a specific heuristic approach to solving the TSP.
+- **Node and Graph Data Structures**: Defines classes to encapsulate city information and graph representations, including adjacency lists and cost matrices for efficient data management.
 
-Utility Functions: Includes functions for displaying menus, loading graphs from files, displaying graph summaries and details, running algorithms, and analyzing algorithm performance.
+- **Algorithm Classes**: Introduces an abstract class `TSPSolver` and its specialized subclasses `NNSolver`, `NNFLSolver`, and `NISolver`, each dedicated to a particular heuristic TSP-solving approach.
+
+- **Utility Functions**: Encompasses a variety of functions to facilitate user interaction, such as graph data loading, graph summaries presentation, algorithm execution, and performance analysis.
+
+This project is a comprehensive exploration of heuristic methods in solving the TSP, designed to offer insights into algorithm efficiency and effectiveness in route optimization tasks.
